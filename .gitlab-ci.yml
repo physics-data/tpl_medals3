@@ -1,0 +1,6 @@
+grade:
+  image: python:3.10-bullseye
+  script:
+    - apt update
+    - apt -y install r-cran-dbplyr r-cran-rsqlite
+    - python3 grade.py
