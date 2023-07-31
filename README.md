@@ -15,6 +15,7 @@
 * 显式调用 `data.frame` 系列函数
 * `collect` 等即时求值函数
 * R 内置以及第三方包提供的数据操作函数，例如 `paste`, `laply`
+* SQL 查询语句
 
 为了完成题目，你需要在 [dplyr 文档](https://dplyr.tidyverse.org/index.html) 中寻找合适的操作函数，并仔细理解不同参数的作用。以下是助教认为可能有用的一些函数：
 
